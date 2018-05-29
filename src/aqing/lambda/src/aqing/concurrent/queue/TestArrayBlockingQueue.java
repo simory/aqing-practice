@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 
-/**  
+/**
  * @Description: 读源码时测一测ArrayBlockingQueue
- * @author fuqi@meizu.com 
- * @date 2018年5月17日 下午8:08:18 
- * @version V1.0   
+ * @author fuqi@meizu.com
+ * @date 2018年5月17日 下午8:08:18
+ * @version V1.0
  */
 public class TestArrayBlockingQueue {
 
@@ -22,7 +22,7 @@ public class TestArrayBlockingQueue {
 		//当capacity小于aList的length时抛出异常:因为初始化队列中的数组items长度是3,而会循环把5个aList赋值到items中,这样到超过3时数组越界异常
 		ArrayBlockingQueue<String> queue = new ArrayBlockingQueue<String>(3, true, aList);
 	}
-	
+
 	public static void testAdd(){
 		List<String> aList = new ArrayList<String>();
 		aList.add("dad");
@@ -37,5 +37,5 @@ public class TestArrayBlockingQueue {
 //		testConstratorIllegal();
 		testAdd();
 	}
-	
+
 }

@@ -149,10 +149,12 @@ public class AsyncAppender {
 				long size = put - takeIndex.get();
 				if (size >= qsize) {
 					discardCount.incrementAndGet();
+					System.out.println(Thread.currentThread().getName()+"--discard--"+log);
 					return false;
 				}
 				if (putIndex.compareAndSet(put, put + 1)) {
 					entries[(int) put & indexMask] = log;
+					System.out.println(Thread.currentThread().getName()+"--product--"+log);
 					// 仅仅在队列的日志数超过阈值，且消费者不在运行，且获得锁，才唤醒消费者
 					// 这个做法能保证只有必要时才立即通知消费者，减少上下文切换的开销                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 					if (size >= notifyThreshold && !running.get() && lock.tryLock()) {
@@ -195,10 +197,11 @@ public class AsyncAppender {
 		}
 
 		public static void main(String[] args) {
-			long max = Long.MAX_VALUE;
-			long d = 24 * 3600 * 1000 * 365;
-			System.out.println(max + "  " + d);
-			System.out.println(max / d);
+//			long max = Long.MAX_VALUE;
+//			long d = 24 * 3600 * 1000 * 365;
+//			System.out.println(max + "  " + d);
+//			System.out.println(max / d);
+
 		}
 
 		class AsyncRunnable implements Runnable {
@@ -226,6 +229,7 @@ public class AsyncAppender {
 									log = entries[idx];
 								}
 								entries[idx] = null;
+								System.out.println(Thread.currentThread().getName()+"--consume--"+log);
 								parent.appender.append(log );
 								takeIndex.set(++take);
 								--size;
