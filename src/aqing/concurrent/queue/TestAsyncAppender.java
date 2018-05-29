@@ -13,12 +13,24 @@ import java.util.concurrent.Future;
 public class TestAsyncAppender {
 
 	public static void main(String[] args) {
-		final AsyncAppender appender = new AsyncAppender(1024);
+		final AsyncAppender appender = new AsyncAppender(32);
 		appender.append("lalalalallalallalalalalala");
 
 		ExecutorService excutor = Executors.newFixedThreadPool(5);
 
-		for(int i = 0; i<1024;i++){
+        final TissotAppender tissotAppender = new TissotAppender();
+        for(int i = 0; i<40;i++){
+            //消费
+            excutor.submit(new Thread(new Runnable() {
+
+                @Override
+                public void run() {
+                    // TODO Auto-generated method stub
+                    //appender.start(tissotAppender,Thread.currentThread().getName(),false);
+                }
+            }));
+        }
+		for(int i = 0; i<40;i++){
 			final int j = i;
 			//生产
             Future<?> submit = excutor.submit(new Thread(new Runnable() {
@@ -27,18 +39,6 @@ public class TestAsyncAppender {
 				public void run() {
 					// TODO Auto-generated method stub
 					appender.append(Thread.currentThread().getName()+"-good night me-"+j);
-				}
-			}));
-        }
-        final TissotAppender tissotAppender = new TissotAppender();
-        for(int i = 0; i<1024;i++){
-            //消费
-			excutor.submit(new Thread(new Runnable() {
-				
-				@Override
-				public void run() {
-					// TODO Auto-generated method stub
-					appender.start(tissotAppender,Thread.currentThread().getName(),false);
 				}
 			}));
         }

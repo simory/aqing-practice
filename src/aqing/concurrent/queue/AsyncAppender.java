@@ -30,7 +30,7 @@ public class AsyncAppender {
 		 * 默认的消费者唤醒阈值，这个值需要让消费者能较持续的有事情做， 这个值设置过小，会导致生产者频繁唤起消费者；
 		 * 设置过大，可能导致生产者速度过快导致队列满丢日志的问题。
 		 */
-		private static final int	DEFAULT_NOTIFY_THRESHOLD	= 512;
+		private static final int	DEFAULT_NOTIFY_THRESHOLD	=16;//512;
 
 		/**
 		 * RingBuffer 实现，size 必须为 2 的 n 次方
@@ -152,6 +152,12 @@ public class AsyncAppender {
 					System.out.println(Thread.currentThread().getName()+"--discard--"+log);
 					return false;
 				}
+//				try {
+//					Thread.sleep(1);
+//				} catch (InterruptedException e) {
+//					e.printStackTrace();
+//					System.out.println("sleep exception");
+//				}
 				if (putIndex.compareAndSet(put, put + 1)) {
 					entries[(int) put & indexMask] = log;
 					System.out.println(Thread.currentThread().getName()+"--product--"+log);
@@ -167,6 +173,8 @@ public class AsyncAppender {
 						}
 					}
 					return true;
+				}else{
+					System.out.println("==========================>--bug--"+log);
 				}
 			}
 		}
@@ -237,10 +245,12 @@ public class AsyncAppender {
 							} while (size > 0);
 
 						} else {
+							System.out.println(Thread.currentThread().getName()+"--no message--");
 							parent.appender.flush();
 							if (lock.tryLock()) {
 								try {
 									running.set(false);
+									System.out.println(Thread.currentThread().getName()+"--wait message--");
 									notEmpty.await(1, TimeUnit.SECONDS);
 								} finally {
 									lock.unlock();
