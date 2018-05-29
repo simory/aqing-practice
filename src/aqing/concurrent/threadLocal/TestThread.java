@@ -17,10 +17,10 @@ public class TestThread {
 	
 	private AtomicBoolean test = new AtomicBoolean(false);
 	public static void main(String[] args){
-		int length = (2 << 16)-1;
-		System.out.println(2 << 16);
-		System.out.println(2 < 3);
-		for(int i =131071 ; i>131051;i--){
+		int length = (2 << 2)-1;
+		System.out.println(2 << 2);
+//		System.out.println(2 < 3);
+		for(int i =0 ; i<36;i++){
 			System.out.println(i+"&"+length+"="+(i&length));
 		}///(++i == items.length) ? 0 : i
 		System.out.println(9&8);
