@@ -1,5 +1,7 @@
 package aqing.concurrent.threadLocal;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**  
@@ -10,6 +12,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class AnalysisThreadLocal {
 
+	private static ThreadLocal<Map<String, Object>> THREAD_LOCAL_MAP = new ThreadLocal<Map<String, Object>>(){
+		public Map<String, Object> initialValue1(){
+			return new HashMap<String, Object>();
+		}
+		public void testIf(){}
+	};
 	public static void main(String[] args) {
 		AtomicInteger nextHashCode = new AtomicInteger();
 		int HASH_INCREMENT = 0x61c88647;
