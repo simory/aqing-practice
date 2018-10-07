@@ -23,6 +23,7 @@ public class DefinedAdvisor {
     @Around("@annotation(definedPointCut)")
     private void doAround(ProceedingJoinPoint point, DefinedPointCut definedPointCut) throws Throwable{
         //可以从point中解析出参数
+        //
         definedAdvisorHandler.test();
     }
 }
