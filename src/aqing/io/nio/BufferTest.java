@@ -1,6 +1,6 @@
 package aqing.io.nio;
 
-import java.nio.ByteBuffer;
+import java.nio.*;
 
 /**
  * @Description:
@@ -10,6 +10,7 @@ import java.nio.ByteBuffer;
 public class BufferTest {
 
     public static void main(String[] args){
-//        ByteBuffer buffer = new ByteBuffer(0, 0, 0, 10, new byte[], 0);
+//        ByteBuffer buffer = new ByteBuffer(0, 0, 0, 10);
+
     }
 }

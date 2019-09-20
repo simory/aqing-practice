@@ -14,9 +14,11 @@ import java.util.concurrent.Executors;
  * @date 2018年5月2日 下午12:09:30
  * @version V1.0
  */
-public class TestHashMap {
+public class TestHashMap{
 
 	public static void main(String[] args) {
+		Map<String, Object> map1 = new HashMap<String, Object>(25);
+		System.out.println("size:"+map1.size());
 		System.out.print("CPU个数:");//Runtime.getRuntime()获取当前运行时的实例
 		System.out.println(Runtime.getRuntime().availableProcessors());//availableProcessors()获取当前电脑CPU数量
 		System.out.print("虚拟机内存总量:");
@@ -26,7 +28,8 @@ public class TestHashMap {
 		System.out.print("虚拟机使用最大内存量:");
 		System.out.println(Runtime.getRuntime().maxMemory());//maxMemory()获取java虚拟机试图使用的最大内存量
 
-		final Map<String, Object> map = new HashMap<String, Object>(4);
+		final Map<String, Object> map = new HashMap<String, Object>(25);
+		System.out.println("size:"+map.size());
 		ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 		for(int i = 0; i<1000;i++){
 			executor.execute(new Thread(){
@@ -37,7 +40,7 @@ public class TestHashMap {
 		}
 		executor.shutdown();
 
-
+		System.out.println("size:"+map.size());
 		for(int i =0;i<30;i++){
 			System.out.println(i+"==="+indexFor(hash(i+""),4));
 		}
@@ -60,7 +63,7 @@ public class TestHashMap {
 	public static int hash(Object k){
 		int h = 0;
         if (k instanceof String) {
-                return sun.misc.Hashing.stringHash32((String) k);
+                return 0;//sun.misc.Hashing.stringHash32((String) k);
         }
         h = 0;//hashSeed;
 
