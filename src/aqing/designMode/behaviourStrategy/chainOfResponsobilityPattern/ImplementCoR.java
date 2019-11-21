@@ -1,4 +1,4 @@
-package aqing.designMode.chainOfResponsobilityPattern;
+package aqing.designMode.behaviourStrategy.chainOfResponsobilityPattern;
 
 /**
  * @Description:实现责任链模式的三种方式

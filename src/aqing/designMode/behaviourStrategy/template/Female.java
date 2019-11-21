@@ -1,4 +1,4 @@
-package aqing.designMode.template;
+package aqing.designMode.behaviourStrategy.chainOfResponsobilityPattern.template;
 
 /**
  * @Description:女性吃食物

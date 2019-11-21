@@ -1,4 +1,4 @@
-package aqing.designMode.template;
+package aqing.designMode.behaviourStrategy.chainOfResponsobilityPattern.template;
 
 /**
  * @Description:模板模式的用法-底层接口
