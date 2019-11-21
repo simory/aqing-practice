@@ -177,8 +177,17 @@
                 <artifactId>fastjson</artifactId>
                 <version>1.2.60</version>
             </dependency>
-
             <!--json end-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-security</artifactId>
+                <version>2.1.8.RELEASE</version>
+            </dependency>
+            <dependency>
+
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-websocket</artifactId>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

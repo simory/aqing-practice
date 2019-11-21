@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b5a1775-96d5-4edb-a801-b652e91bfb0c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/aqing/designMode/template/AbstractPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aqing/designMode/template/Female.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aqing/designMode/template/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aqing/designMode/template/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aqing/Serializable/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aqing/Serializable/TestJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,19 +20,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BufferTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/BufferTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WebSocketServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="75">
               <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,8 +35,8 @@
       <file leaf-file-name="WebSocketServerHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+            <state relative-caret-position="750">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -49,52 +44,65 @@
       <file leaf-file-name="TestSerializable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestSerializable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="176">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeSerialzable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/AttributeSerialzable.java">
+      <file leaf-file-name="ImplementCoR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aqing/designMode/chainOfResponsobilityPattern/ImplementCoR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJson.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestJson.java">
+      <file leaf-file-name="AbstractPerson.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/AbstractPerson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Female.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/Female.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="97" column="58" lean-forward="true" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="58" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5381#5382#0" expanded="true" />
-                <element signature="e#5415#5416#0" expanded="true" />
+                <element signature="e#0#6410#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefinedAdvisor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aqing/reflection/AOP/DefinedAdvisor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2685">
-              <caret line="179" selection-start-line="179" selection-end-line="179" />
             </state>
           </provider>
         </entry>
@@ -132,9 +140,10 @@
       <find>put</find>
       <find>entrySet</find>
       <find>put(</find>
-      <find>[] nextTable</find>
+      <find />
       <find>nextTable</find>
       <find>gson</find>
+      <find>add(</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -195,8 +204,13 @@
         <option value="$PROJECT_DIR$/src/aqing/reflection/jdk/proxy/cglibProxy/HelloSeriveCglib.java" />
         <option value="$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServer.java" />
         <option value="$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServerHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/aqing/Serializable/TestJson.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/aqing/interview/Person.java" />
+        <option value="$PROJECT_DIR$/src/aqing/designMode/template/Person.java" />
+        <option value="$PROJECT_DIR$/src/aqing/designMode/template/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/aqing/designMode/template/Female.java" />
+        <option value="$PROJECT_DIR$/src/aqing/designMode/template/AbstractPerson.java" />
       </list>
     </option>
   </component>
@@ -271,6 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,31 +309,22 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aqing" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="designMode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aqing" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="designMode" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aqing" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="WebSocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aqing" type="462c0819:PsiDirectoryNode" />
-              <item name="Serializable" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -328,7 +334,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -365,14 +370,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestJson">
-    <configuration name="Base64Encryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aqing.signature.encryption.base64.Base64Encryption" />
+  <component name="RunManager" selected="Application.PersonTest">
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aqing.designMode.template.PersonTest" />
       <module name="aqing-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aqing.signature.encryption.base64.*" />
+          <option name="PATTERN" value="aqing.designMode.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -481,18 +486,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReallyTestHashMap" />
-      <item itemvalue="Application.Base64Encryption" />
       <item itemvalue="Maven.fuqi-testpractise [clean,install]" />
       <item itemvalue="Application.WebSocketServer" />
       <item itemvalue="Application.TestJson" />
+      <item itemvalue="Application.PersonTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.TestJson" />
         <item itemvalue="Application.WebSocketServer" />
         <item itemvalue="Maven.fuqi-testpractise [clean,install]" />
         <item itemvalue="Application.ReallyTestHashMap" />
-        <item itemvalue="Application.Base64Encryption" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +543,10 @@
       <workItem from="1557878133991" duration="868000" />
       <workItem from="1565705686048" duration="193000" />
       <workItem from="1568952559141" duration="6203000" />
-      <workItem from="1568962708821" duration="37000" />
+      <workItem from="1568962708821" duration="432000" />
+      <workItem from="1569846067939" duration="3026000" />
+      <workItem from="1570341353074" duration="83000" />
+      <workItem from="1574307369507" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="commit test AsyncAppendLog">
       <created>1527618186708</created>
@@ -594,7 +602,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160146000" />
+    <option name="totallyTimeSpent" value="164390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="23" width="1249" height="777" extended-state="0" />
@@ -616,26 +624,26 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49715215" weight="0.3607306" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32686567" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49715215" weight="0.3607306" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32876712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21872412" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" weight="0.32876712" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2087821" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="13" weight="0.32994187" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4979658" weight="0.36377475" />
       <window_info id="设计器" order="8" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32848838" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="right" id="调色板" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32890365" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4979658" weight="0.36377475" />
+      <window_info anchor="right" id="调色板" order="8" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32848838" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,6 +764,113 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/AttributeSerialzable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/reflection/AOP/DefinedAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="180" column="24" lean-forward="true" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/BufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/AttributeSerialzable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/reflection/AOP/DefinedAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/BufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -815,11 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
           <caret line="101" column="46" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5381#5382#0" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,28 +1039,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="75">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aqing/reflection/AOP/DefinedAdvisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestSerializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -968,36 +1061,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/aqing/reflection/AOP/DefinedAdvisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2685">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/AttributeSerialzable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="350">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/AttributeSerialzable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="180" column="24" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/io/nio/WebSocket/WebSocketServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/Serializable/TestSerializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/designMode/chainOfResponsobilityPattern/ImplementCoR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="97" column="58" lean-forward="true" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5381#5382#0" expanded="true" />
-            <element signature="e#5415#5416#0" expanded="true" />
+            <element signature="e#0#6410#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/Female.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aqing/designMode/template/AbstractPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
