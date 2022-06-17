@@ -54,7 +54,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.44</version>
+            <version>1.2.83</version>
         </dependency>
     </dependencies>
     <packaging>pom</packaging>
@@ -157,7 +157,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.60</version>
+                <version>1.2.83</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-core-asl -->
             <dependency>
@@ -175,7 +175,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.60</version>
+                <version>1.2.83</version>
             </dependency>
             <!--json end-->
             <dependency>
